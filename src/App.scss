@@ -1,3 +1,6 @@
+@import "~@itwin/itwinui-css/scss/variables";
+@import "~@itwin/itwinui-css/scss/classes";
+
 .App {
   text-align: center;
 }
@@ -5,6 +8,10 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  @include themed {
+    // FIXME: you're not that important
+    fill: t(iui-color-background-negative) !important;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
