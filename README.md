@@ -1,8 +1,9 @@
 # made with create-react-app
 
-to reproduce just start the project:
+to reproduce fetch dependencies and run:
 
 ```sh
+yarn
 yarn start
 ```
 
